@@ -41,3 +41,106 @@ html, body{
    min-height: 1px;
    margin:0 2% 20px;
  }
+
+ 
+@media (min-width: 768px) {
+   .container {
+     width: 750px;
+   }
+ }
+ @media (min-width: 992px) {
+   .container {
+     width: 970px;
+   }
+   .one-half {
+     width:46%;
+   }
+   .one-third {
+     width:29.33333%;
+   }
+   .one-fourth {
+     width:21%;
+   }
+ }
+ @media (min-width: 1200px) {
+   .container {
+     width: 1170px;
+   }
+ }
+
+ /* HEADER */
+ header {
+   color:#FFFFFF;
+   background: #8e0e11; /* Old browsers */
+background: -moz-linear-gradient(left,  #8e0e11 0%, #c71016 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #8e0e11 0%,#c71016 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #8e0e11 0%,#c71016 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e0e11', endColorstr='#c71016',GradientType=1 ); /* IE6-9 */
+
+ }
+ header nav {
+   padding:1em 0;
+ }
+ header nav ul {
+   display:inline;
+   text-align: right;
+   float:right;
+   margin:0;
+ }
+ header nav ul > li {
+   list-style-type: none;
+   display: inline-block;
+   margin:0 15px;
+ }
+ header nav ul > li.btn-outline {
+   padding:10px 15px;
+   border:2px solid #FFFFFF;
+   border-radius: 4px;
+ }
+ header nav ul > li.btn-outline:hover {
+   background:#FFFFFF;
+ }
+ header nav ul > li > a {
+   color:#FFFFFF;
+   text-decoration: none;
+ }
+ header nav ul > li.btn-outline:hover > a {
+   color:#34495E;
+ } 
+ header .hero {
+   display:block;
+   position: relative;
+ }
+ header .hero h1 {
+   font-size:48px;
+   font-weight: normal;
+   margin:95px 0 0;
+ }
+ header .hero p {
+   font-size: 22px;
+   line-height: 26px;
+   font-weight: 100;
+   margin:10px 0 40px;
+ }
+ header .hero img {
+   display: block;
+   margin:3em auto 0;
+ }
+ header .image-laptop {
+    float: right;
+    margin-bottom: -20px !important;
+    margin-left: 20px !important;
+    width: 663px;
+}
+  /* BUTTONS */
+ .btn {
+    background: #f03c02 none repeat scroll 0 0;
+    border: 2px solid #f03c02;
+    border-radius: 4px;
+    box-shadow: 0 2px 0 0 #72260d;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 10px 30px;
+    text-decoration: none;
+ }
+ 
