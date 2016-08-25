@@ -356,3 +356,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e0e11', end
    margin: 0 auto;
    display: block;
  }
+
+
+ /* DASHBOARD */
+ .content-item{
+    margin: 30px 7px;
+    position: relative;
+	float:left;
+	overflow:hidden;
+
+ }
+ .item-box{
+	float: left;
+ }
+ .item-box img{white-space: nowrap;
+   width: 275px;
+   height: auto;
+
+ }
+ 
