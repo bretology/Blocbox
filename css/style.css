@@ -406,7 +406,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e0e11', end
    text-align: center;
    margin-right:8px;
  }
- 
+ .left-nav .items ul li .active{
+	background:#6b0103;
+	padding:4px;
+ } 
  
 
  
